@@ -1,0 +1,1 @@
+g++ -o main ./src/*.cpp -I"./external" -L"./lib" -lsfml-graphics-s-d -lsfml-window-s-d -lsfml-system-s-d -lfreetype -lwinmm -lopengl32 -lgdi32 -D SFML_STATIC
